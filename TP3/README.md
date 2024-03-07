@@ -13,4 +13,4 @@ Neste trabalho de casa tinhamos o objetivo de realizar um somador dentro dos int
 
 ## Como executar 
 
-```python3 somadoronoff,py```
+```python3 somadoronoff.py```
