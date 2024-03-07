@@ -26,7 +26,7 @@ def tokenize(code):
         if dic['NUM'] is not None:
             t = ("NUM", int(dic['NUM']), linha, m.span())
         elif dic['ATRIB'] is not None:
-            t = ("ATRIB", "=", linha, m.span())
+            t = ("ATRIB", dic['ATRIB'], linha, m.span())
         elif dic['ID'] is not None:
             t = ("ID", dic['ID'], linha, m.span())
         elif dic["OP"] is not None: 
